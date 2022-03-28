@@ -1,0 +1,152 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  #hero {
+    min-height: 400px;
+  }
+  .row {
+    margin: 0;
+  }
+  .main-menu {
+    position: relative;
+    z-index: 100;
+  }
+  .navbar-nav {
+    text-align: center;
+    background-color: #9fc6c4;
+    padding: 20px 30px;
+  }
+  .main-menu ul li:last-child a {
+    padding-left: 0 !important;
+  }
+  .main-menu ul li a {
+    margin: 5px 0;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #10c9c3;
+    border: #ffffff !important;
+  }
+  .hero-content {
+    position: absolute;
+    top: 60%;
+    right: 6%;
+    transform: translate(0, -60%);
+    text-align: center;
+}
+  .hero-content h2 {
+    font-size: 22px;
+  }
+  .hero-content p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 16px 0 28px 0;
+  }
+  #about {
+    padding: 40px 0;
+  }
+  .skills-details {
+    margin: 40px 98px;
+  }
+  .skills-bg {
+    min-height: 240px;
+  }
+  .icon-box .icon {
+    margin-right: 0;
+  }
+  .process-video {
+    min-height: 240px;
+  }
+  #happy-clients {
+    padding: 60px 0;
+  }
+  .icon-box {
+    flex-direction: column;
+  }
+  .icon {
+    margin-bottom: 20px;
+  }
+  .icon-box-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .p-logo {
+    width: 50px;
+  }
+  #testimonials {
+    padding: 50px 0;
+  }
+  .testimonials-text p {
+    font-size: 20px;
+    width: 100%;
+  }
+  #footer {
+    padding: 50px 0;
+  }
+  .footer-middle ul, .footer-menu .first-menu > ul, .social-medias ul {
+    padding: 0;
+  }
+  .footer-menu {
+    justify-content: start;
+  }
+  .social-medias {
+    margin-left: 0;
+  }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .container, .container-sm {
+    max-width: 700px;
+  }
+  .main-menu {
+    position: relative;
+    z-index: 100;
+  }
+  .navbar-nav {
+    text-align: center;
+    background-color: #9fc6c4;
+    padding: 20px 30px;
+  }
+  .main-menu ul li:last-child a {
+    padding-left: 0 !important;
+  }
+  .main-menu ul li a {
+    margin: 5px 0;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #10c9c3;
+    border: #ffffff !important;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .main-menu {
+    position: relative;
+    z-index: 100;
+  }
+  .navbar-nav {
+    text-align: center;
+    background-color: #9fc6c4;
+    padding: 20px 30px;
+  }
+  .main-menu ul li:last-child a {
+    padding-left: 0 !important;
+  }
+  .main-menu ul li a {
+    margin: 5px 0;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #10c9c3;
+    border: #ffffff !important;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
